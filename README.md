@@ -5,5 +5,7 @@ Simon Says: A reflex and memory-based game built with Arduino UNO, LEDs, and but
 2. **Playback**: The LEDs blink in the current level's sequence.
 3. **User Input**: Player must press the corresponding buttons in the correct order.
 4. **Level up or Game Over** :
+   <br>    
         If user input is correct: Level increases and a longer sequence plays.
+   <br>
         If user input is wrong: All LEDs blink to indicate **Game Over**, and the game resets.
