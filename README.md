@@ -24,5 +24,25 @@ Simon Says: A reflex and memory-based game built with Arduino UNO, LEDs, and but
         | LED 4 | 11          | Btn4   | 5            |
         | LED 5 | 12          | Btn5   | 6            |
 
-    - **LEDs**: Anode (+) → Arduino Pin (via 220Ω), Cathode (−) → GND  
-    - **Buttons**: One side → Arduino Pin (with 10kΩ pull-down to GND), other side → +5V
+    - LEDs: Anode (+) → Arduino Pin (via 220Ω), Cathode (−) → GND  
+    - Buttons: One side → Arduino Pin (with 10kΩ pull-down to GND), other side → +5V
+## Code Overview :
+        - `generateSequence()`: Creates a random 100-step sequence.
+        - `playSequence()`: Blinks LEDs up to current level.
+        - `checkUserInput()`: Waits for button inputs, checks correctness.
+        - `gameOver()`: Blinks all LEDs 3 times when wrong button is pressed.
+## Features :
+        Randomized sequence generation.
+        Real-time user input validation.
+        Visual feedback through LEDs.
+        Level-based difficulty scaling.
+        Clean and modular code.
+## Future Improvements :
+        Can add a buzzer for sound feedbacks.
+        Integrate an LCD to display score and messages. 
+        Add Difficulty settings (Easy/Medioum/Hard)
+## Learning Outcomes :
+        Embedded systems design with Arduino.
+        Event-driven programming and debouncing.
+        Circuit design for LEDs and push buttons.
+        Random number generation and game logic.
