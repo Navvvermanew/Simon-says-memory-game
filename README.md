@@ -16,3 +16,13 @@ Simon Says: A reflex and memory-based game built with Arduino UNO, LEDs, and but
         220 ohm resistors(LEDs) - 5
         10kohm resistors(Buttons) - 5
         Jumper wires
+## Circuit Connections:
+        | LED   | Arduino Pin | Button | Arduino Pin  |
+        | LED 1 | 8           | Btn1   | 2            |
+        | LED 2 | 9           | Btn2   | 3            |
+        | LED 3 | 10          | Btn3   | 4            |
+        | LED 4 | 11          | Btn4   | 5            |
+        | LED 5 | 12          | Btn5   | 6            |
+
+    - **LEDs**: Anode (+) → Arduino Pin (via 220Ω), Cathode (−) → GND  
+    - **Buttons**: One side → Arduino Pin (with 10kΩ pull-down to GND), other side → +5V
