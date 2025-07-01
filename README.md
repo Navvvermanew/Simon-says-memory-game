@@ -8,11 +8,11 @@ Simon Says: A reflex and memory-based game built with Arduino UNO, LEDs, and but
         If user input is correct: Level increases and a longer sequence plays.
    <br>
         If user input is wrong: All LEDs blink to indicate **Game Over**, and the game resets.
-## HArdware Components:
-Arduino UNO - 1
-Breadboard - 1
-LEDs- 5
-Push Buttons - 5
-220 ohm resistors(LEDs) - 5
-10kohm resistors(Buttons) - 5
-Jumper wires
+## Hardware Components:
+        Arduino UNO - 1
+        Breadboard - 1
+        LEDs- 5
+        Push Buttons - 5
+        220 ohm resistors(LEDs) - 5
+        10kohm resistors(Buttons) - 5
+        Jumper wires
